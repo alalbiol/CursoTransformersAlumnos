@@ -1,0 +1,38 @@
+name: CursoTransformers
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - mkl
+  - jupyter
+  - pandas
+  - matplotlib
+  - pytorch
+  - pillow
+  - SimpleITK
+  - pip
+  - opencv
+  - scikit-image
+  - attrdict
+  - pylint
+  - ipython
+  - torchvision
+  - pip:
+    - tqdm
+    - sklearn
+    - einops
+    - torch-summary
+    - datasets
+    - transformers
+    - tensorboardX
+    - pytorch-lightning
+    - wandb
+    - torchmetrics
+    - jsonargparse
+    - monai
+    - nibabel
+    - self_attention_cv
+    - albumentations
+    - segmentation_models_pytorch
+
